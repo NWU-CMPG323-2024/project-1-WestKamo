@@ -9,6 +9,9 @@ This repository serves as the central hub for comprehensive documentation across
 4. CMPG 323-Project 4-38924846 This repository will be used for project 4.
 5. CMPG 323-Project 3-38924846 This repository will be used for project 5.
 
+# Documentation
+This is the lean document 
+
 # Branching Strategy Overview
 1.	Main Branches:
 Represents the production-ready state of the project. Code in this branch is thoroughly tested and ready for deployment to production environments.
