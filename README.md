@@ -1,15 +1,15 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/h7CYPb85)
-#Project Overview
+# Project Overview
 This repository serves as the central hub for comprehensive documentation across all projects.
 
-#Repositories
+# Repositories
 CMPG-323-Overview-38924846  This repository will be used for project 1.
 CMPG-323-Project 2-38924846 This repository will be used for project 2.
 CMPG 323-Project 3-38924846 This repository will be used for Project 3.
 CMPG 323-Project 4-38924846 This repository will be used for project 4.
 CMPG 323-Project 3-38924846 This repository will be used for project 5.
 
-#Branching Strategy Overview
+# Branching Strategy Overview
 1.	Main Branches:
 o	main Branch: Represents the production-ready state of the project. Code in this branch is thoroughly tested and ready for deployment to production environments.
 2.	Development Branches:
@@ -27,7 +27,7 @@ o	Naming Convention: Hotfix branches are prefixed with hotfix/ followed by a bri
 o	Purpose: Address critical issues or bugs found in production (main branch) that require immediate resolution.
 o	Merge Strategy: Once fixes are validated, merged into both main and develop branches to ensure the fix is applied across current development efforts and production.
 
-#.gitinore usage
+# .gitinore usage
 The .gitignore file is a crucial component within each project's repository, serving to specify which files and directories Git should ignore when tracking changes and staging files for commits. Here's how the .gitignore file is utilized within each project .
 Project 1:Analysis & Planning
 •	In the analysis and planning phase, the .gitignore file ensures that sensitive or temporary files related to documentation tools (such as project management software exports, diagrams, and spreadsheets) are excluded from version control.
@@ -40,7 +40,7 @@ In the RPA Testing project, the .gitignore file ensures that test data, logs gen
 Project 5:Reporting:
 For the Reporting project, the .gitignore file excludes temporary files generated during report generation, cached data used for visualization, and files specific to reporting tools that do not need to be versioned.
 
-#Securing credentials and sensitive information
+# Securing credentials and sensitive information
 •  Avoid Hardcoding: Never embed credentials directly into code or configuration files to prevent accidental exposure.
 •  Use Environment Variables: Store sensitive data like API keys and passwords in environment variables, ensuring they are set locally and in deployment environments.
 •  Utilize Secrets Management Tools: Employ dedicated secrets management solutions (e.g., AWS Secrets Manager, Azure Key Vault) to securely store and manage sensitive information.
