@@ -12,6 +12,8 @@ This repository serves as the central hub for comprehensive documentation across
 # Documentation
 The lean document can be accesed using https://github.com/NWU-CMPG323-2024/project-1-WestKamo/blob/main/Lean%20Technical%20Documentation%20Template_38924846%20(1).docx 
 
+# This is the burndown chart
+
 # Branching Strategy Overview
 1.	Main Branches:
 Represents the production-ready state of the project. Code in this branch is thoroughly tested and ready for deployment to production environments.
